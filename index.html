@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
+    <!-- Adiciona Bootstrap Icons -->
+    <link rel="stylesheet" href="./style.css">
+    <title>Portfólio Jeferson Abreu 1.0</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav_bar">
+            <a class="logo" href="#">
+                <span class="logo-j">Sarah</span><span class="logo-nome">Rodrigues</span>
+            </a>
+            <ul class="nav_links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Experiências</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="trilho" id="trilho">
+                <div class="indicador"></div>
+                <div class="icons">
+                    <i class="bi bi-brightness-high-fill"></i>
+                    <i class="bi bi-moon-fill"></i>
+                </div>
+            </div>
+            <button id="btn-menu">
+                <span class="linha"></span>
+                <span class="linha"></span>
+                <span class="linha"></span>
+            </button>
+        </nav>
+        <div class="menu-wrapper">
+            <ul class="menu-mobile" id="menu-mobile">
+                <li><a href="#home" id="mobile-home">Home</a></li>
+                <li><a href="#sobre" id="mobile-sobre">Sobre</a></li>
+                <li><a href="#projetos" id="mobile-projetos">Experências</a></li>
+                <li><a href="#contato" id="mobile-contato">Contato</a></li>
+                <div class="mode-toggle" id="mode-toggle">
+                    <i class="fa-solid fa-sun" id="moon-icon" style="display: none;"></i>
+                    <i class="fa-solid fa-moon" id="sun-icon" ></i>
+                </div>
+            </ul>
+    </header>
+
+    <main>
+        <section class="topo-do-site" id="home">
+            <div class="interface">
+                <div class="flex">
+                    <article class="txt-topo-site">
+                        <figure id="text0" class="hidden">
+                            <img id="avatarImage" src="./img/avataaars (1).png" alt="Avatar">
+                        </figure>
+                        <div id="text1" class="hidden"></div>
+                        <div id="text2" class="hidden"></div>
+                        <div id="text3" class="hidden"></div>
+                        <div id="text4" class="hidden"></div>
+                        <div id="text5" class="hidden"></div>
+                        <div class="icon-inicio">
+                            <a href="https://wa.me/5585989763393?text=Ol%C3%A1%2C%20Sarah.%20Vamos%20conversar%3F" class="hidden"><button>Vamos Conversar</button></a>
+                        </div><!--icon-inicio-->
+                    </article><!--txt-topo-site-->
+                </div><!--flex-->
+            </div><!--interface-->
+            <div class="scroll-to-top" id="scrollToTop">
+                <i class="fa-solid fa-arrow-up"></i>
+            </div>
+        </section><!--topo-do-site-->
+
+        <section class="sobre" id="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="text-sobre">
+                        <h1>SOBRE <span>MIM</span></h1>
+                        <div class="img-sobre-mobile"><img src="./img/WhatsApp Image 2024-09-07 at 13.51.47.jpeg" alt=""></div>
+                        <p>Fomentando fidelização e conexões duradouras: Sou uma profissional dedicada e apaixonada por Atendimento ao Cliente e Vendas, comprometida em oferecer experiências personalizadas e de excelência. Com um enfoque constante em inovação, aplico estratégias modernas para elevar a satisfação do cliente e alcançar resultados excepcionais. Minha abordagem é orientada para transformar cada interação em uma oportunidade de agregar valor e promover a fidelização.</p>
+                        <a href="./docs/Currículo-Sarah-Moreira-Rodrigues.pdf" download="Currículo-Sarah-Moreira-Rodrigues.pdf"><button>Baixar CV</button></a>
+                    </div>
+                    <div class="img-sobre"><img src="./img/WhatsApp Image 2024-09-07 at 13.51.47.jpeg" alt=""></div>
+                    <div class="sociais-sobre">
+                        <a href="https://t.me/sarahmoreira?start=Ol%C3%A1%2C%20Sarah.%20Vamos%20conversar%3F"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="mailto:sarahmoreira_r@hotmail.com?subject=Contato&body=Olá%2C%20Sarah.%20Tudo%20bem%3F"><i class="fa-solid fa-square-envelope"></i></a>
+                        <a href="https://www.instagram.com/_sarahmrodrigues"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://wa.me/5585989763393?text=Ol%C3%A1%2C%20Sarah.%20Vamos%20conversar%3F"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="skills">
+                    <h2>HABILIDADES</h2>
+                    <div class="carousel-container">
+                        <div class="carousel">
+                            <a href="#"><img src="./img/conversation.png" alt="">Comunicação Eficaz</a>
+                            <a href="#"><img src="./img/empathy.png" alt="">Empatia</a>
+                            <a href="#"><img src="./img/operator.png" alt="">Resolução de Problemas</a>
+                            <a href="#"><img src="./img/patience.png" alt="">Paciência</a>
+                            <a href="#"><img src="./img/abilities.png" alt="">Adaptabilidade</a>
+                            <a href="#"><img src="./img/marketing-strategy.png" alt="">Organização</a>
+                            <a href="#"><img src="./img/partners.png" alt="">Trabalho em Equipe</a>
+                            <a href="#"><img src="./img/time.png" alt="">Gerenciamento de Tempo</a>
+                            <a href="#"><img src="./img/negotiation.png" alt="">Habilidades de Negociação</a>
+                            <a href="#"><img src="./img/emotional.png" alt="">Inteligência Emocional</a>
+                            <a href="#"><img src="./img/conversation.png" alt="">Comunicação Eficaz</a>
+                            <a href="#"><img src="./img/empathy.png" alt="">Empatia</a>
+                            <a href="#"><img src="./img/operator.png" alt="">Resolução de Problemas</a>
+                            <a href="#"><img src="./img/patience.png" alt="">Paciência</a>
+                            <a href="#"><img src="./img/abilities.png" alt="">Adaptabilidade</a>
+                            <a href="#"><img src="./img/marketing-strategy.png" alt="">Organização</a>
+                            <a href="#"><img src="./img/partners.png" alt="">Trabalho em Equipe</a>
+                            <a href="#"><img src="./img/time.png" alt="">Gerenciamento de Tempo</a>
+                            <a href="#"><img src="./img/negotiation.png" alt="">Habilidades de Negociação</a>
+                            <a href="#"><img src="./img/emotional.png" alt="">Inteligência Emocional</a>
+                            <a href="#"><img src="./img/conversation.png" alt="">Comunicação Eficaz</a>
+                            <a href="#"><img src="./img/empathy.png" alt="">Empatia</a>
+                            <a href="#"><img src="./img/operator.png" alt="">Resolução de Problemas</a>
+                            <a href="#"><img src="./img/patience.png" alt="">Paciência</a>
+                            <a href="#"><img src="./img/abilities.png" alt="">Adaptabilidade</a>
+                            <a href="#"><img src="./img/marketing-strategy.png" alt="">Organização</a>
+                            <a href="#"><img src="./img/partners.png" alt="">Trabalho em Equipe</a>
+                            <a href="#"><img src="./img/time.png" alt="">Gerenciamento de Tempo</a>
+                            <a href="#"><img src="./img/negotiation.png" alt="">Habilidades de Negociação</a>
+                            <a href="#"><img src="./img/emotional.png" alt="">Inteligência Emocional</a>
+                            <a href="#"><img src="./img/conversation.png" alt="">Comunicação Eficaz</a>
+                            <a href="#"><img src="./img/empathy.png" alt="">Empatia</a>
+                            <a href="#"><img src="./img/operator.png" alt="">Resolução de Problemas</a>
+                            <a href="#"><img src="./img/patience.png" alt="">Paciência</a>
+                            <a href="#"><img src="./img/abilities.png" alt="">Adaptabilidade</a>
+                            <a href="#"><img src="./img/marketing-strategy.png" alt="">Organização</a>
+                            <a href="#"><img src="./img/partners.png" alt="">Trabalho em Equipe</a>
+                            <a href="#"><img src="./img/time.png" alt="">Gerenciamento de Tempo</a>
+                            <a href="#"><img src="./img/negotiation.png" alt="">Habilidades de Negociação</a>
+                            <a href="#"><img src="./img/emotional.png" alt="">Inteligência Emocional</a>
+                            <a href="#"><img src="./img/conversation.png" alt="">Comunicação Eficaz</a>
+                            <a href="#"><img src="./img/empathy.png" alt="">Empatia</a>
+                            <a href="#"><img src="./img/operator.png" alt="">Resolução de Problemas</a>
+                            <a href="#"><img src="./img/patience.png" alt="">Paciência</a>
+                            <a href="#"><img src="./img/abilities.png" alt="">Adaptabilidade</a>
+                            <a href="#"><img src="./img/marketing-strategy.png" alt="">Organização</a>
+                            <a href="#"><img src="./img/partners.png" alt="">Trabalho em Equipe</a>
+                            <a href="#"><img src="./img/time.png" alt="">Gerenciamento de Tempo</a>
+                            <a href="#"><img src="./img/negotiation.png" alt="">Habilidades de Negociação</a>
+                            <a href="#"><img src="./img/emotional.png" alt="">Inteligência Emocional</a>
+                            <a href="#"><img src="./img/conversation.png" alt="">Comunicação Eficaz</a>
+                            <a href="#"><img src="./img/empathy.png" alt="">Empatia</a>
+                            <a href="#"><img src="./img/operator.png" alt="">Resolução de Problemas</a>
+                            <a href="#"><img src="./img/patience.png" alt="">Paciência</a>
+                            <a href="#"><img src="./img/abilities.png" alt="">Adaptabilidade</a>
+                            <a href="#"><img src="./img/marketing-strategy.png" alt="">Organização</a>
+                            <a href="#"><img src="./img/partners.png" alt="">Trabalho em Equipe</a>
+                            <a href="#"><img src="./img/time.png" alt="">Gerenciamento de Tempo</a>
+                            <a href="#"><img src="./img/negotiation.png" alt="">Habilidades de Negociação</a>
+                            <a href="#"><img src="./img/emotional.png" alt="">Inteligência Emocional</a>
+                            <a href="#"><img src="./img/conversation.png" alt="">Comunicação Eficaz</a>
+                            <a href="#"><img src="./img/empathy.png" alt="">Empatia</a>
+                            <a href="#"><img src="./img/operator.png" alt="">Resolução de Problemas</a>
+                            <a href="#"><img src="./img/patience.png" alt="">Paciência</a>
+                            <a href="#"><img src="./img/abilities.png" alt="">Adaptabilidade</a>
+                            <a href="#"><img src="./img/marketing-strategy.png" alt="">Organização</a>
+                            <a href="#"><img src="./img/partners.png" alt="">Trabalho em Equipe</a>
+                            <a href="#"><img src="./img/time.png" alt="">Gerenciamento de Tempo</a>
+                            <a href="#"><img src="./img/negotiation.png" alt="">Habilidades de Negociação</a>
+                            <a href="#"><img src="./img/emotional.png" alt="">Inteligência Emocional</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!--Sobre-->
+
+        <section class="projetos" id="projetos">
+            <h2>EXPERIÊNCIAS<span>PROFISSIONAIS</span></h2>
+            <div class="interface" id="projeto-pokedex">
+                <div class="flex">
+                    <div class="projeto1">
+                        <img class="projeto1-img" src="./img/WhatsApp Image 2024-09-07 at 14.04.52.jpeg" alt="Pokedex">
+                        <div class="text-projeto1">
+                            <h3>Atendimento ao Cliente <img src="./img/icons8-customer-service-94.png"
+                                alt=""></h3>
+                            <img class="img-projetos" src="./img/WhatsApp Image 2024-09-07 at 14.04.52.jpeg" alt="projeto1">
+                            <span>Atendimento ao Cliente na Dermaclin | Foco em Excelência e Experiência Personalizada (04/2019 - 01/2024): Como profissional de atendimento ao cliente na Dermaclin, minha função foi garantir que cada paciente tivesse uma experiência excepcional e personalizada, desde o primeiro contato até o pós-atendimento.  </span>
+                            <span>Fui responsável por esclarecer dúvidas sobre tratamentos, agendar consultas e acompanhar o progresso dos pacientes, sempre buscando oferecer um atendimento humanizado e de alta qualidade. Meu objetivo era garantir a satisfação e o bem-estar dos clientes, sendo um ponto de confiança e suporte durante toda a jornada na clínica. </span>
+                        </div>
+                    </div>
+                </div><!--flex-->
+            </div><!--interface-->
+
+            <div class="interface" id="projeto-viva-musica">
+                <div class="flex">
+                    <div class="projeto1">
+                        <img src="./img/217773373_2194963434135466_799410015439313175_n.jpg" alt="projeto1">
+                        <div class="text-projeto1">
+                            <h3>Consultora Comercial <img src="./img/icons8-negotiation-64.png"
+                                alt=""></h3>
+                            <img class="img-projetos" src="./img/217773373_2194963434135466_799410015439313175_n.jpg" alt="projeto1">
+                            <span>Atendimento ao Cliente e Vendas na DRV (01/2024 - 08/2024): Atuei como responsável pelo atendimento ao cliente e vendas, garantindo uma comunicação eficiente e um atendimento personalizado. Fui encarregada de responder dúvidas, solucionar problemas e acompanhar o processo de vendas, sempre com foco na satisfação do cliente e na fidelização.  </span>
+                            <div class="ling-projetos">
+                            </div>
+                            <span>Meu papel incluía identificar as necessidades dos clientes, oferecer soluções adequadas e contribuir para o aumento das vendas, utilizando habilidades de negociação e técnicas de relacionamento. Além disso, colaborava estreitamente com a equipe de vendas para alcançar metas e melhorar a experiência do consumidor. </span>
+                        </div>
+                    </div>
+                </div><!--flex-->
+            </div><!--interface-->
+
+            <div class="interface" id="projeto-viva-musica">
+                <div class="flex">
+                    <div class="projeto1">
+                        <img class="projeto3" src="./img/th (1).jpg" alt="projeto1">
+                        <div class="text-projeto1">
+                            <h3>Telemarketing <img src="./img/icons8-telemarketing-64.png"
+                                alt=""></h3>
+                            <img class="img-projetos" src="./img/th (1).jpg" alt="projeto1">
+                            <span>Atendente de Telemarketing na LIQ CORPUS S.A (03/2018 - 01/2019): Trabalhei como atendente de telemarketing, sendo responsável por garantir uma comunicação clara e eficiente com os clientes. Minhas principais atividades incluíam atender e esclarecer dúvidas, resolver problemas e prestar suporte durante todo o processo de atendimento, com foco na satisfação e fidelização do cliente. </span>
+                            <div class="ling-projetos">
+                            </div>
+                            <span>Atuei na identificação de necessidades, oferecendo soluções assertivas e contribuindo para a manutenção de um atendimento de alta qualidade. Além disso, colaborei com a equipe para alcançar metas de desempenho e melhorar a experiência do cliente. </span>
+                        </div>
+                    </div>
+                </div><!--flex-->
+            </div><!--interface-->
+    </main>
+
+    <footer id="contato">
+        <div class="section__container footer__container">
+            <div class="footer__col">
+                <img id="avatarImage" src="./img/avataaars.png" alt="Avatar">
+                <div class="logo3">
+                    <span class="logo-j">Sarah</span><span class="logo-nome">Rodrigues</span>
+                </div>
+                <div class="footer__socials">
+                    <a href="https://t.me/sarahmoreira?start=Ol%C3%A1%2C%20Sarah.%20Vamos%20conversar%3F"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://www.instagram.com/_sarahmrodrigues"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="mailto:sarahmoreira_r@hotmail.com?subject=Contato&body=Olá%2C%20Sarah.%20Tudo%20bem%3F"><i class="fa-solid fa-square-envelope"></i></a>
+                    <a href="https://wa.me/5585989763393?text=Ol%C3%A1%2C%20Sarah.%20Vamos%20conversar%3F"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer__col">
+                <ul class="footer__links">
+                    <li><a href="#home">INÍCIO</a></li>
+                    <li><a href="#sobre">SOBRE</a></li>
+                    <li><a href="#projetos">EXPERIÊNCIAS</a></li>
+                    <li><a href="https://www.instagram.com/_sarahmrodrigues">INSTAGRAM</a></li>
+                    <li><a href="https://wa.me/5585989763393?text=Ol%C3%A1%2C%20Sarah.%20Vamos%20conversar%3F">WHATSAPP</a></li>
+                    <li><a href="mailto:sarahmoreira_r@hotmail.com?subject=Contato&body=Olá%2C%20Sarah.%20Tudo%20bem%3F">E-MAIL</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h4>CONTATO</h4>
+                <p>
+                    Eleve sua equipe com uma especialista em atendimento ao cliente que combina empatia e eficiência para criar conexões sólidas e satisfatórias. Estou pronta para mostrar como minha paixão e habilidades podem transformar a experiência de seus clientes. <span class="highlight">Entre em
+                        contato e descubra!</span>
+                </p>
+                <div class="footer__socials2">
+                    <a href="https://t.me/sarahmoreira?start=Ol%C3%A1%2C%20Sarah.%20Vamos%20conversar%3F"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://www.instagram.com/_sarahmrodrigues"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="mailto:sarahmoreira_r@hotmail.com?subject=Contato&body=Olá%2C%20Sarah.%20Tudo%20bem%3F"><i class="fa-solid fa-square-envelope"></i></a>
+                    <a href="https://wa.me/5585989763393?text=Ol%C3%A1%2C%20Sarah.%20Vamos%20conversar%3F"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
